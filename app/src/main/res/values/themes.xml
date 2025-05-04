@@ -1,0 +1,10 @@
+
+<resources>
+    <style name="Theme.BudgetTracker" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.BudgetTracker.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@drawable/splash</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/empty_icon</item> <!-- disables center icon -->
+        <item name="postSplashScreenTheme">@style/Theme.BudgetTracker</item>
+    </style>
+</resources>
